@@ -25,9 +25,6 @@ python find_email.py
 "YOUR ID" change to your Shodan.io username
 "YOUR PASSWORD" change to Shodan.io password
 
-## Screenshots
-![Alt text](/venv/image.png?raw=true "MongoDb Output")
-![Alt text](/venv/image2.png?raw=true "ElasticSearch Output")
 
 
 ## End
