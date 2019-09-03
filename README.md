@@ -1,14 +1,22 @@
-# FindOpenDatabase
+# ScanInfo
 
 ## About
-Find open MongoDB and Elasticsearch databases details and get to Json(Ip,Company Name,Db Size , Db indices).
+Find email in open MongoDB and Elasticsearch databases details and get to Json.
 
 
 ## Requirement
 ```bash
-selenium=>3.141.0
-urllib3=>1.25.3
+elasticsearch==7.0.4
+pymongo==3.9.0
+selenium==3.141.0
+urllib3==1.25.
 ```
+## Run
+ ```bash
+python get_shodan.py
+python find_email.py
+```
+
 ## Configuration
 ```bash
     driver.find_element_by_id("username").send_keys("YOUR ID")
